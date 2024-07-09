@@ -601,3 +601,32 @@ img{
         margin-right: 0 !important;
     }
 }
+
+@media only screen and (max-width: 420px){
+    header h1{
+        font-size: 35px;
+    }
+
+    .contact .wrapper{
+        font-size: 5px;
+    }
+    .contact .grp{
+        text-align: center;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        gap: .1rem;
+    }
+
+    .contact .grp i{
+        font-size: 20px;
+        margin-right: .5rem;
+    }
+    .contact .grp span{
+        font-size: 20px;
+        margin-right: .6rem;
+    }
+
+}
