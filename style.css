@@ -7,11 +7,11 @@
     scroll-behavior:smooth ;
 }
 
-
-body{
-    background: #111;
+ body{
+    background: #232020;
     color: white;
-}
+} 
+
 
 header nav{
     height: 15vh;
@@ -25,7 +25,7 @@ header nav{
 
 header h1{
     font-size: 45px;
-    color:crimson;
+    color:rgb(0, 145, 255);
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -46,7 +46,7 @@ header a{
     padding: .5rem 1rem;
 
     transition: .2s ease-in;
-    border-bottom: 2px solid crimson;
+    border-bottom: 2px solid rgb(0, 145, 255);;
 
     overflow: hidden;
     position: relative;
@@ -65,7 +65,7 @@ header a::before{
 
     transition: .2s ease-in;
     transform: translateX(-101%);
-    background: crimson;
+    background: rgb(0, 145, 255);;
 }
 
 header a:hover::before{
@@ -73,7 +73,7 @@ header a:hover::before{
 }
 
 header ul li:nth-child(1) a{
-    background: crimson;
+    background: rgb(0, 145, 255);;
     color:white;
 }
 
@@ -88,7 +88,7 @@ header ul li:nth-child(1) a{
 
 #btn:hover{
     transform: rotate(180deg);
-    color: crimson;
+    color: rgb(0, 145, 255);;
 }
 
 /* .s-container */
@@ -125,7 +125,7 @@ header ul li:nth-child(1) a{
 .icons a{
     font-size: 20px;
     color:white;
-    background: crimson;
+    background: rgb(0, 145, 255);;
     text-decoration: none;
 
     width: 35px;
@@ -145,7 +145,7 @@ header ul li:nth-child(1) a{
 
 .header h3{
     font-size: 25px;
-    color: crimson;
+    color: rgb(0, 145, 255);;
     font-weight: 200;
     text-align: center;
     margin-bottom: -1rem;
@@ -169,7 +169,7 @@ header ul li:nth-child(1) a{
     width: 300px;
     height: 5px;
     border-radius: 5rem;
-    background: crimson;
+    background: rgb(0, 145, 255);;
     border-radius: 1rem;
 }
 
@@ -204,7 +204,7 @@ img{
 }
 
 .title .auto-type{
-    color: crimson;
+    color: rgb(0, 145, 255);;
 }
 
 .title span{
@@ -254,7 +254,7 @@ img{
 
 .buttons a{
     text-decoration: none;
-    background: crimson;
+    background: rgb(0, 145, 255);;
     color: white;
 }
 
@@ -265,11 +265,11 @@ img{
 }
 
 .buttons buttons:hover{
-    background-color: crimson;
+    background-color: rgb(0, 145, 255);;
 }
 
 .buttons a:nth-child(2):hover{
-    background-color: crimson;
+    background-color: rgb(0, 145, 255);;
     color: white;
 }
 
@@ -349,10 +349,87 @@ img{
 }
 
 .check-project a:hover{
-    color: crimson;
+    color: rgb(0, 145, 255);;
 }
 
 /* project section */
+
+/* Skills Section */
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3rem;
+    gap: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #5e2b97;
+    margin-bottom: 10px;
+}
+
+.skills h2 {
+    color: #333;
+}
+
+.skills h3 {
+    color: #5e2b97;
+    margin-top: 20px;
+}
+
+.skills p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    color: #666;
+}
+
+.skills ul li {
+    margin: 5px 0;
+}
+@media only screen and (max-width: 420px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+}
+/* Skills Section */
 
 /* contact */
 
@@ -426,7 +503,7 @@ img{
 
 .contact .footer a{
     text-decoration: none;
-    background: crimson;
+    background: rgb(0, 145, 255);;
     color: #eee;
     font-weight: bold;
     font-size: 20px;
